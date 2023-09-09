@@ -20,11 +20,6 @@ Copy code
 cd email-spam-detector
 Install the required dependencies. You can create a virtual environment for this project to manage dependencies separately.
 
-Copy code
-pip install -r requirements.txt
-Usage
-Ensure you have installed the necessary dependencies as mentioned in the installation steps.
-
 Run the script:
 
 Copy code
