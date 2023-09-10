@@ -13,7 +13,7 @@ Installation
 Clone the repository to your local machine:
 
 Copy code
-git clone https://github.com/yourusername/email-spam-detector.git
+git clone https://github.com/sandhyakasthuri/Spam_Detector_Using_ML.git
 Change to the project directory:
 
 Copy code
@@ -51,7 +51,7 @@ You can customize the preprocessing steps, feature extraction method, and machin
 
 If you have your own dataset, replace spam_ham_dataset.csv with your data file, ensuring it has columns named label and text (or adjust the code accordingly).
 
-let's see bit more about preprocessing and how we shaped the data so that it can be suitable as input to the ML model.
+let's see a bit more about preprocessing and how we shaped the data so that it can be suitable as input to the ML model.
 Lowercasing: All text is converted to lowercase. This ensures that words in different cases (e.g., "Hello" and "hello") are treated as the same word.
 
 Punctuation Removal: Punctuation marks (such as commas, periods, and exclamation points) are removed from the text. This helps reduce the dimensionality of the feature space and ensures that punctuation doesn't affect classification.
